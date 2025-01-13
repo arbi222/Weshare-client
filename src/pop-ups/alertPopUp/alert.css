@@ -1,0 +1,26 @@
+.alert-container{
+    width: 600px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid var(--main-color);
+}
+
+.alert-container button{
+    display: block;
+    margin-left: auto;
+    border-radius: 10px;
+
+    &:hover{
+        background-color: var(--main-color);
+    }
+}
+
+@media(max-width: 900px){
+    .alert-container{
+        width: 400px; 
+    }
+
+    .alert-container button{
+        margin-right: auto;
+    }
+}

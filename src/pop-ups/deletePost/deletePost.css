@@ -1,0 +1,47 @@
+.delete-post-container{
+    width: 500px;
+}
+
+.delete-post-header{
+    text-align: center;
+    position: relative;
+}
+
+.close-delete-post-popup{
+    position: absolute;
+    right: 10px;
+    top: -6px;
+    padding: 3px 7px;
+}
+
+.delete-post-question{
+    text-align: center;
+}
+
+.delete-post-btns{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.cancel-delete-btn{
+    border-radius: 10px;
+}
+
+.delete-post-btn-pop-up{
+    border-radius: 10px;
+    background-color: var(--main-color);
+}
+
+.delete-post-btn-pop-up:hover{
+    background-color: #3295c4;
+}
+
+@media(max-width: 800px){
+    
+    .delete-post-container{
+        width: 400px;
+    }
+   
+}

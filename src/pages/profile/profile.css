@@ -1,0 +1,398 @@
+.blocked-user-profile{
+  text-align: center;
+  margin-top: 40px;
+
+  p{
+    margin-top: 0;
+    font-size: large;
+    font-weight: bold;
+  }
+}
+
+.main-profile-container{
+    height: 700px;
+    background-color: #fff;
+  }
+
+  .main-profile-container-no-cover{
+    height: 400px;
+    background-color: #fff;
+  }
+  
+  .mini-container{
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .cover-img{
+    width: 1200px;
+    height: 520px;
+    max-height: 600px;
+    margin-bottom: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .cover-img-cursor{
+    cursor: pointer;
+  }
+
+  .no-cover{
+    width: 1200px;
+    height: 220px;
+    max-height: 600px;
+    margin-bottom: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: var(--secondary-grey);
+  }
+  
+  .cover-btn{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    position: absolute;
+    right: 35px;
+    top: 410px;
+    border-radius: 10px;
+  }
+
+  .cover-btn-no-cover{
+    top: 140px;
+  }
+
+  .cover-btn:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .delete-cover-btn{
+    width: 160px;
+    height: 38px;
+    right: 35px;
+    top: 460px;
+  }
+
+  .save-cover{
+    z-index: 100;
+    width: 160px;
+    right: 150px;
+    top: 410px;
+  }
+
+  .cancel-cover{
+    z-index: 100;
+    width: 100px;
+    top: 410px;
+    right: 35px;
+  }
+
+  .share-post-cover{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 460px;
+    gap: 3px;
+    width: 155px;
+    height: 45px;
+    right: 75px;
+    cursor: pointer;
+  }
+
+  .first-label{
+    padding: 10px 5px;
+  }
+  
+  .share-post-cover label{
+    cursor: pointer;
+  }
+  
+  .switch-cover {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+  }
+  
+  .switch-cover input {
+    display: none;
+  }
+
+  .slider-cover {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--secondary-grey);
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .slider-cover:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider-cover {
+    background-color: var(--main-color);
+  }
+  
+  input:focus + .slider-cover {
+    box-shadow: 0 0 1px var(--main-color);
+  }
+  
+  input:checked + .slider-cover:before {
+    transform: translateX(26px);
+  }
+  
+  .profile-center{
+    width: 600px;
+    position: relative;
+    left: 50px;
+    top: -110px;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+  }
+  
+  .profile-picture{
+    width: 190px;
+    height: 190px;
+    border: 5px solid #fff;
+    border-radius: 100%;
+    object-fit: cover; /* fill */
+  }
+
+  .profile-picture-cursor{
+    cursor: pointer;
+  }
+  
+  .name-friends h1{
+    margin-bottom: 0px;
+  }
+  
+  .name-friends p{
+    margin-top: 5px;
+    color: grey;
+  }
+  
+  .name-friends p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  
+  .edit-profile-section{
+    width: 370px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    position: absolute;
+    left: 800px;
+    top: 20px;
+  }
+  
+  .options-profile-btns{
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+  }
+  
+  .friends-btn{
+    background-color: var(--main-color);
+  }
+  
+  .accept-request-btn:hover{
+    background-color: var(--main-color);
+    
+  }
+  
+  .decline-request-btn:hover{
+    background-color: rgb(160, 36, 36);
+  }
+  
+
+
+  .hr-profile{
+    position: absolute;
+    width: 90%;
+    left: 50px;
+    top: 100px;
+    border-style: solid none none;
+    border-width: 1px;
+    border-color: var(--secondary-grey);
+  }
+  
+  .profile-buttons-more{
+    width: 55%;
+    position: absolute;
+    top: 125px;
+    left: 270px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .prof-btn-active{
+    background-color: var(--main-color);
+    color: black;
+    border-radius: 10px;
+  }
+  
+  .prof-btn-active:hover{
+    background-color: var(--main-color);
+  }
+
+  .profile-btns{
+    border-radius: 10px;
+    color: #00BEDA;
+  }
+
+  .profile-btns:hover{
+    color: black;
+  }
+  
+  .not-in-friend-list{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .feed-profile-container{
+    width: 800px;
+    margin: 10px auto;
+  }
+  
+  
+  @media(max-width: 1230px){
+    
+    .mini-container{
+      width: 100%;
+    }
+    
+    .cover-img{
+      width: 100%;
+    }
+
+    .no-cover{
+      width: 100%;
+    }
+  
+    .edit-profile-section{
+      width: 40%;
+      left: 55%;
+    }
+  
+    .profile-buttons-more{
+      left: 23%;
+    }
+  }
+  
+  @media(max-width: 900px){
+  
+    .main-profile-container{
+      height: auto;
+    }
+
+    .main-profile-container-no-cover{
+      height: auto;
+    }
+  
+    .profile-center{
+      width: 100%;
+      left: 0px;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+    }
+  
+    .name-friends{
+      text-align: center;
+    }
+    
+    .cover-img{
+      height: 100%;
+    } 
+  
+    .cover-btn{
+      right: 25px;
+      top: 80%;
+      z-index: 2;
+      width: 25px;
+    }
+
+    .delete-cover-btn{
+      width: 45px;
+      height: 39px;
+      right: 75px;
+    }
+
+    .save-cover{
+      right: 60px;
+    }
+
+    .share-post-cover{
+      top: 70%;
+      z-index: 2;
+      width: 56px;
+      height: 30px;
+      right: 27px;
+    }
+    
+    .first-label{
+      display: none;
+    }
+  
+    .cover-btn span{
+      display: none;
+    }
+
+    .edit-profile-section{
+      width: 100%;
+      justify-content: center;
+      gap: 15px;
+      position: absolute;
+      left: 0;
+      top: 200px;
+    }
+  
+    .hr-profile{
+      width: 95%;
+      top: 245px;
+      left: 15px;
+    }
+    
+    .profile-buttons-more{
+      width: 100%;
+      top: 262px;
+      left: 0;
+    }
+
+    .feed-profile-container{
+        width: 100%;
+    }
+  
+  }

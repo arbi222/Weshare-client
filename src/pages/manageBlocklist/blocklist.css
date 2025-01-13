@@ -1,0 +1,110 @@
+.main-blocklist-container{
+    width: 600px;
+    margin: 40px auto;
+    padding-bottom: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+  
+.blocklist-header{
+    padding-top: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.go-back-block-btn{
+  position: absolute;
+  padding: 4px 8px;
+  top: 20px;
+  left: 20px;
+}
+
+.block-note{
+    width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.filter-blocked-section{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.filter-blocked-users{
+    background-color: var(--main-bg-color);
+    border: none;
+    width: 575px;
+    height: 30px;
+    font-size: 17px;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+.filter-blocked-users:focus{
+    outline: none;
+}
+
+.blocklist-loader-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.blocklist-loader{
+    color: var(--main-color) !important;
+}
+
+.blocked-users-container{
+    overflow-y: hidden;
+    width: 600px;
+    max-height: 200px;  
+    scrollbar-gutter: stable;
+}
+
+.blocked-users-container:hover{
+    overflow-y: scroll;
+}
+
+.blocked-users-container::-webkit-scrollbar{
+    width: 8px;
+}
+
+.blocked-users-container::-webkit-scrollbar:hover{
+    background-color: var(--primary-grey);
+}
+
+.blocked-users-container::-webkit-scrollbar-thumb{
+    background-color: var(--secondary-grey);
+    border-radius: 8px;
+}
+
+.blocked-users-container::-webkit-scrollbar-thumb:hover{
+    background-color: grey;
+}
+
+.not-blocked-anyone{
+    text-align: center;
+    margin: 20px auto;
+    font-size: large;
+}
+
+@media(max-width: 640px){
+    .main-blocklist-container{
+        width: 450px;
+    }
+
+    .block-note{
+        width: 350px;
+    }
+
+    .filter-blocked-users{
+        width: 425px;
+    }
+
+    .blocked-users-container{
+        width: 450px;
+    }
+}

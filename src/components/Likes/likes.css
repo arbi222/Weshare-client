@@ -1,0 +1,45 @@
+.likes-section{
+    margin-top: 10px;
+    padding: 0 15px 10px;
+}
+
+.like-section-pattern{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.like-owner-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding-left: 10px;
+    border-radius: 10px;
+
+    width: 330px;
+}
+
+.like-owner-link:hover{
+    background-color: var(--secondary-grey);
+}
+
+.like-profile-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.like-loader-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.like-loader{
+    color: var(--main-color) !important;
+}
+

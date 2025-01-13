@@ -1,0 +1,60 @@
+.photo-style{
+    border-radius: 10px;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    height: 160px;
+    border: 1px solid var(--main-color);
+    cursor: pointer;
+}
+
+.video-style{
+  position: relative;
+  cursor: pointer;
+
+  span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+}
+
+.photo-settings-btn{
+  position: absolute;
+  z-index: 50;
+  padding: 3px 6px;
+  top: 5px;
+  right: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.photo-settings-btn:hover{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.photo-settings-pop-up{
+  position: absolute;
+  z-index: 100;
+  top: 45px;
+  right: 0px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 200px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.photo-settings-btns{
+  border-radius: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+  

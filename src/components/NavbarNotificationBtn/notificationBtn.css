@@ -1,0 +1,77 @@
+.notification-dropdown {
+    width: 380px; 
+    height: auto;
+    max-height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 59px;
+    right: -111px;
+    font-size: large;
+    scrollbar-gutter: stable;
+}
+
+.scroll-bar{
+    overflow-y: hidden;
+}
+
+.scroll-bar:hover{
+    overflow-y: scroll;
+}
+
+.scroll-bar::-webkit-scrollbar{
+    width: 8px;
+}
+
+.scroll-bar::-webkit-scrollbar:hover{
+    background-color: var(--primary-grey);
+}
+
+.scroll-bar::-webkit-scrollbar-thumb{
+    background-color: var(--secondary-grey);
+    border-radius: 5px;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb:hover{
+    background-color: grey;
+}
+
+.notification-top{
+    display: flex;
+    align-items: center;
+}
+
+.notification-header{
+    margin: 20px;
+    padding: 7px;
+    display: inline-block;
+}
+
+.clearAllBtn-section{
+    display: inline-block;
+}
+
+.clearAllBtn{
+    padding: 5px 8px;
+    margin: 0px 10px;
+}
+
+.notification-components {
+    position: relative;
+}
+
+.notification-loader-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.no-notification{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.notification-loader{
+    color: var(--main-color) !important;
+}

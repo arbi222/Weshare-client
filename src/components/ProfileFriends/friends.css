@@ -1,0 +1,78 @@
+.friends-section{
+  width: 650px;
+  margin: 30px auto 40px;
+  padding: 5px 1% 5px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.friends-section h2{
+  text-align: center;
+}
+
+.friends-hr{
+  width: 97%;
+  border: 1px solid var(--primary-grey);
+  margin: 10px auto 15px;
+}
+
+.friends-pattern{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.friend-desc{
+  flex: 0 47%;
+  /* flex-grow: 1; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--primary-grey);
+  border-radius: 10px;
+}
+
+.friend-link{
+  text-decoration: none;
+  color: #000;
+  width: 100%;
+  padding: 1%;
+}
+
+.friend-link:hover{
+  text-decoration: underline;
+  color: var(--main-color);
+}
+
+.friend-desc div{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 2%;
+}
+
+.friends-img{
+  width: 80px;
+  height: 80px;
+  border-radius: 15%;
+}
+
+.no-friends{
+  text-align: center;
+}
+
+@media(max-width: 700px){
+
+  .friends-section{
+    width: 460px;
+  }
+  
+  .friends-img{
+    width: 50px;
+    height: 50px;
+  }
+
+}

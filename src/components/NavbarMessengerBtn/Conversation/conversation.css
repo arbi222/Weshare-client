@@ -1,0 +1,100 @@
+.single-conversation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
+    margin: 0 0 10px 5px;
+
+    &:hover{
+        background-color: var(--primary-grey);
+    }
+
+    .conv-info{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        text-decoration: none;
+        color: black;
+       
+        .img-badge{
+            position: relative;
+
+            img{
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+
+            .onlineBadge{
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                border-radius: 50px;
+                background-color: limegreen;
+                top: 0px;
+                right: 0px;
+                border: 3px solid #fff;
+            }
+        }
+        
+
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            
+            h4{
+                margin: 0;
+            }
+    
+            p{
+                margin: 0;
+                font-size: 17px;
+                color: gray;
+            }
+        }
+    }
+
+    .conv-buttons{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .delete-button-div{
+            button{
+                background-color: #fff;
+                padding: 3px 7px;
+        
+                &:hover{
+                    background-color: grey;
+                }
+            }
+        } 
+    
+        .blue-dot{
+            background-color: var(--main-color);
+            border-radius: 100%;
+            width: 15px;
+            height: 15px;
+            cursor: pointer;
+            border: none;
+        }
+    } 
+}
+
+.delete-conversation-animation{
+  animation: deleteConv ease 0.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes deleteConv {
+  100%{ margin-left: -100%;
+        display: none;    
+  }
+}

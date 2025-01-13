@@ -1,0 +1,91 @@
+.comments-section{
+    display: flex;
+    gap: 5px;
+    padding: 10px 15px 15px;
+}
+
+.flex-align{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.comment-desc{
+    background-color: var(--primary-grey);
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 400px;
+}
+
+.being-edited{
+    border: 2px solid var(--main-color);
+}
+
+.comment-user-name{
+    text-decoration: none;
+    color: #000;
+}
+
+.comment-user-name:hover{
+    text-decoration: underline;
+}
+
+.comment-desc h5{
+    margin: 0 0 5px;
+}
+
+.comment-text{
+    margin: 0;
+    display: inline;
+}
+
+.show-more-less-btn{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+ }
+ 
+ .show-more-less-btn:hover{
+   text-decoration: underline;
+   cursor: pointer;
+ }
+
+.comment-time{
+    font-size: 13px;
+    margin-top: 5px;
+    color: grey;
+}
+
+.edited-comment{
+    font-size: 12px;
+    color: grey;
+}
+
+.delete-comment-btn{
+    background-color: transparent;
+    padding: 3px 6px;
+}
+
+.more-icon{
+    margin-top: 3px;
+}
+
+.horizontal-more-btn{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.comment-more-hr{
+    border-style: none solid none none;
+}
+
+.horizontal-btn-child{
+    display: flex;
+    border-radius: 15px;
+    padding: 5px;
+}

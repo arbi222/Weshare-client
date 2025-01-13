@@ -1,0 +1,22 @@
+.navbar-container{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-left{
+    flex: 3.5;
+}
+
+.nav-logo {
+    color: var(--main-color);
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}

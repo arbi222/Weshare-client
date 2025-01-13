@@ -1,0 +1,56 @@
+.about-section{
+    width: 650px;
+    margin: 30px auto 40px;
+    padding: 5px 1% 5px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .about-section h2{
+    text-align: center;
+  }
+
+  .about-hr{
+    width: 97%;
+    border: 1px solid var(--primary-grey);
+    margin: 10px auto 15px;
+  }
+  
+  .about-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    padding: 0 1%;
+  }
+
+  .about-item label{
+    font-weight: bold;
+  }
+  
+  .about-grey-style{
+    background-color: var(--primary-grey);
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .about-grey-style:hover{
+    background-color: var(--secondary-grey);
+    
+  }
+  
+  .about-bio{
+    flex-direction: column;
+  }
+  
+  .about-bio p{
+    text-align: center;
+  }
+  
+  @media(max-width: 700px){
+  
+    .about-section{
+      width: 450px;
+    }
+  
+  }

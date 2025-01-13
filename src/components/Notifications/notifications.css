@@ -1,0 +1,92 @@
+.notification-container{
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  justify-content: space-between;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.notification-container:hover{
+  background-color: var(--primary-grey);
+}
+
+.notification-container:active{
+  background-color: var(--secondary-grey);
+} 
+
+.notification-item{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.link-notification{
+  text-decoration: none;
+  color: black;
+}
+
+.profile-pic-notification{
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.notification-details{
+  display: flex;
+  flex-direction: column;
+  max-width: 220px;
+}
+
+.notification-details p{
+  margin: 0;
+  font-size: 16px;
+}
+
+.notification-options{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.unread-notification{
+  font-weight: bold;
+}
+
+.blue-dot{
+  background-color: var(--main-color);
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  border: none;
+}
+
+.notification-details span{
+    font-size: 13px;
+    color: gray;
+}
+
+.delete-notification-btn{
+  background-color: #fff;
+  padding: 3px 7px;
+}
+
+.delete-notification-btn:hover{
+  background-color: grey;
+}
+
+.delete-notification-animation{
+  animation: delete ease 0.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes delete {
+  100%{ margin-left: -100%;
+        display: none;    
+  }
+}

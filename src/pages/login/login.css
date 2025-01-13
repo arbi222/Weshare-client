@@ -1,0 +1,174 @@
+.main-login-container{
+    width: 90%;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    /* align-items: center; */
+    gap: 100px;
+  }
+  
+  .first-login-section{
+    width: 45%;
+    padding: 1%;
+    pointer-events: none;
+  }
+  
+  .first-login-section h1{
+    font-size: 60px;
+    color: var(--main-color);
+    margin-bottom: 0;
+  }
+  
+  .first-login-section p{
+    font-size: 30px;
+    margin-top: 0;
+  }
+  
+  .second-login-section{
+    position: relative;
+    width: 400px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .sensitive-data-input{
+    width: 385px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .login-input-field{
+    width: 100%;
+    font-size: 18px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid var(--primary-grey);
+  }
+  
+  .login-input-field:focus{
+    outline: 1px solid var(--main-color);
+  }
+  
+  .pass-container{
+    border: 1px solid var(--main-color);
+  }
+  
+  #pass-enter{
+    width: 85%;
+    height: 30px;
+    border: none;
+    padding: 0;
+    margin-top: 5px;
+    font-size: 18px;
+  }
+  
+  #pass-enter:focus{
+    outline: none;
+  }
+  
+  .show-hide-pass{
+    cursor: pointer;
+    position: absolute;
+    right: 25px;
+    top: 80px;
+    border: 0;
+    background-color: #fff;
+  }
+  
+  .show-hide-pass:focus{
+    outline: none;
+  }
+  
+  .forgot-pass{
+    font-size: 15px;
+    text-align: center;
+    color: var(--main-color);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .forgot-pass:hover{
+    text-decoration: underline;
+  }
+  
+  .login-btn{
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .login-btn:hover{
+    background-color: var(--main-color);
+    color: #fff;
+  }
+
+  .login-btn:disabled{
+    cursor: not-allowed;
+  }
+
+  .hr-login{
+    width: 97%;
+    border: 1px solid var(--primary-grey);
+    margin: 10px auto 15px;
+  }
+  
+  .create-acc-btn{
+    width: 70%;
+    height: 50px;
+    margin-left: 15%;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #31ec21;
+    color: #fff;
+  }
+  
+  .create-acc-btn:hover{
+    background-color: #22a517;
+    color: #fff;
+  }
+
+  @media(max-width: 1250px){
+  
+    .main-login-container{
+      width: 95%;
+      gap: 20px;
+    }
+  
+  }
+  
+  @media(max-width: 1075px){
+  
+    .first-login-section p{
+      font-size: 20px;
+    }
+  
+  }
+  
+  @media(max-width: 900px){
+  
+    .main-login-container{
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .first-login-section{
+      width: 60%;
+      text-align: center;
+    }
+  
+    .first-login-section p{
+      font-size: 20px;
+    }
+  
+  }

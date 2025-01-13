@@ -1,0 +1,66 @@
+.tfa-login-container{
+    width: 600px;
+    top: 34%;
+}
+
+.tfa-login-header{
+    text-align: center;
+    position: relative;
+}
+
+.close-tfa-login-popup{
+    position: absolute;
+    padding: 2px 6px;
+    right: 10px;
+    top: -5px;
+}
+
+.tfa-login-titles{
+    text-align: center;
+}
+
+.tfa-login-input-section{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+  
+.input-tfa-login-pass{
+    width: 300px;
+    font-size: 19px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+  
+.input-tfa-login-pass:focus{
+    outline: none;
+    border: 2px solid var(--main-color);
+}
+
+.tfa-buttons{
+    display: flex;
+    margin: 10px auto;
+}
+
+.tfa-login-btn{
+    background-color: var(--main-color);
+    border-radius: 10px;
+    display: flex;
+    margin: 10px auto;
+}
+
+.tfa-login-btn:hover{
+    background-color: var(--main-color);
+}
+
+
+@media (max-width: 625px) {
+    .tfa-login-container{
+        width: 450px;
+    }
+
+    .input-tfa-login-pass{
+        width: 250px;
+    }
+}

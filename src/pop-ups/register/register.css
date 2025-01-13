@@ -1,0 +1,118 @@
+.main-register-container{
+    width: 430px;
+    top: 45%;
+}
+
+.register-heading{
+  padding: 0px 20px;
+}
+
+.register-heading h1{
+  margin-top: 15px;
+  margin-bottom: 1px;
+}
+
+.register-heading p{
+  margin-top: 0px;
+  color: grey;
+}
+
+.close-btn-container button{
+  border-radius: 25px;
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  padding: 3px 7px;
+}
+
+.register-close-icon{
+  padding-top: 3px;
+  font-size: 5px;
+}
+
+.register-hr{
+  border-style: solid none none;
+  border-width: 1px;
+  border-color: var(--secondary-grey);
+}
+
+.register-body{
+  padding: 10px 20px;
+}
+
+.register-name{
+  display: flex;
+  justify-content: space-between;
+}
+
+.register-input{
+  height: 40px;
+  font-size: medium;
+  padding-left: 10px;
+  border-radius: 5px;
+  background-color: var(--main-bg-color);
+  border: none;
+  outline: 1px solid var(--secondary-grey);
+}
+
+.name-register-css{
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+.register-sensitive{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.register-body-sections p{
+  font-size: small;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.age-input{
+  width: 97%;
+}
+
+.radio-gender-register{
+  display: flex;
+  justify-content: space-between;
+}
+
+.gender-register{
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  outline: 1px solid var(--secondary-grey);
+  position: relative;
+}
+
+.gender-register input{
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+}
+
+.gender-register label{
+  cursor: pointer;
+  padding: 8px;
+  width: 160px;
+}
+
+.sign-up-btn{
+  background-color: #31ec21;
+  color: #fff;
+  display: block;
+  margin: 20px auto 15px;
+  width: 200px;
+  height: 38px;
+  border-radius: 5px;
+}
+
+.sign-up-btn:hover{
+  background-color: #22a517;
+  color: #fff;
+}

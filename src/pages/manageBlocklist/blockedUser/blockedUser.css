@@ -1,0 +1,39 @@
+.blocked-user{
+    width: 560px;
+    border-radius: 7px;
+    margin: 5px 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocked-user:hover{
+    background-color: #f2f4fa;
+    cursor: pointer;
+}
+
+.blocked-user-details{
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    align-items: center;
+}
+
+.blocked-user-profile-photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.unblock-btn{
+    border-radius: 7px;
+}
+
+@media(max-width: 640px){
+    .blocked-user{
+        width: 410px;
+    }
+}

@@ -1,0 +1,46 @@
+.feed{
+    flex: 5;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.feed-wrapper{
+    padding: 20px;
+}
+
+.feed-loader-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.feed-loader{
+    color: var(--main-color) !important;
+}
+
+.noPosts{
+    margin-top: 20px;
+    font-size: 20px;
+    color: grey;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media(max-width: 1100px){
+    
+    .feed{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+  
+}
+
+@media(max-width: 800px){
+    
+    .feed{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+  
+}

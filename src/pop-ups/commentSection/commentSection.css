@@ -1,0 +1,171 @@
+.comment-container{
+    width: 700px;
+    padding-left: 5px;
+    overflow: auto;
+    max-height: 85vh;
+    margin-top: 20px;
+}
+
+.comment-container::-webkit-scrollbar{
+    width: 8px;
+}
+
+.comment-container::-webkit-scrollbar:hover{
+  background-color: var(--primary-grey);
+}
+
+.comment-container::-webkit-scrollbar-thumb{
+  background-color: var(--secondary-grey);
+  border-radius: 5px;
+}
+
+.comment-container::-webkit-scrollbar-thumb:hover{
+  background-color: grey;
+}
+
+.page-post-form{
+    width: 700px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.main-comment-header{
+    text-align: center;
+    position: relative;
+}
+
+.close-btn{
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    padding: 4px 8px;
+}
+
+.comment-hr{
+    width: 100%;
+    border-style: solid none none;
+    border-width: 1px;
+    border-color: var(--secondary-grey);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.comment-hr-width{
+    width: 97%;
+}
+
+.comment-loader-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.second-comment-section{
+    padding-left: 5px;
+    height: auto;
+}
+
+.our-comment-section{
+    display: flex;
+    gap: 5px;
+    margin-left: -5px;
+    padding: 10px 15px 15px;
+}
+
+.comment-profile-pic{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.input-and-btn{
+    width: 650px;
+    position: relative;
+    border-radius: 15px;
+    background-color: var(--primary-grey);
+}
+
+.input-and-btn:hover{
+    cursor: text;
+ }
+
+.comment-textarea{
+    width: 560px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    resize: none;
+    background-color: transparent;
+}
+
+.comment-textarea:focus{
+   outline: none;
+}
+
+.send-comment-btn{
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    background-color: transparent;
+    color: var(--main-color);
+    padding: 0;
+}
+
+.send-comment-btn:hover{
+    background-color: transparent;
+}
+
+.cancel-editing-comment-btn{
+    position: absolute;
+    right: 10px;
+    top: -2px;
+    background-color: transparent;
+    color: #000;
+    padding: 0;
+}
+
+.cancel-editing-comment-btn:hover{
+    background-color: transparent;
+}
+
+.cursor{
+    cursor: not-allowed;
+    border: none;
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.send-icon{
+    margin-top: 3px;
+}
+
+
+.no-post-available{
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+
+@media(max-width: 744px){
+    
+    .comment-container{
+        width: 450px;
+    }
+
+    .page-post-form{
+        width: 450px;
+    }
+
+    .comment-textarea{
+        width: 310px;
+    }
+
+    .comment-hr-width{
+        width: 96%;
+    }
+  
+}

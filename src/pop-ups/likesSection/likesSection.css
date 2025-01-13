@@ -1,0 +1,48 @@
+.likes-container{
+    width: 450px;
+    min-height: 250px;
+    top: 40%;
+}
+
+.scroller{
+    overflow-y: scroll;
+    height: 250px;
+}
+
+.scroller::-webkit-scrollbar{
+    width: 8px;
+}
+
+.scroller::-webkit-scrollbar-thumb{
+    background-color: var(--secondary-grey);
+    border-radius: 8px;
+}
+
+.scroller::-webkit-scrollbar-thumb:hover{
+    background-color: grey;
+}
+
+.main-likes-header{
+    text-align: center;
+    position: relative;
+}
+
+.close-btn{
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    padding: 4px 8px;
+}
+
+.hr-likes-Popup{
+    border-style: solid none none;
+    border-width: 1px;
+    border-color: var(--secondary-grey);
+    margin: 0;
+}
+
+.no-likes{
+    font-size: 22px;
+    text-align: center;
+    margin: 100px auto;
+}

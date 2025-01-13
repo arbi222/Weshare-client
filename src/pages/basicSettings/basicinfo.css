@@ -1,0 +1,104 @@
+.main-basic-container{
+    width: 900px;
+    margin: 40px auto;
+    padding-bottom: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+  
+.main-header{
+  padding-top: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.go-back-basic-btn{
+  position: absolute;
+  padding: 4px 8px;
+  left: 20px;
+  top: 20px;
+}
+
+.info-section{
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.basic-sett-labels{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#bio{
+  font-size: 20px;
+  resize: none;
+  border-radius: 10px;
+  text-align: center;
+  background-color: var(--main-bg-color);
+  overflow: hidden;
+}
+
+#bio:hover{
+  background-color: var(--primary-grey);
+}
+
+#bio:focus{
+  background-color: #fff;
+  outline: none;
+  border: 1px solid var(--main-color);
+}
+
+.hr-seperations-basic{
+  margin: 0px auto;
+  border-style: dotted none none;
+  border-width: 6px;
+  width: 80%;
+  border-color: var(--secondary-grey);
+}
+
+.input-basic{
+  width: 400px;
+  font-size: 19px;
+  border-radius: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+.input-basic:focus{
+  outline: none;
+  border: 2px solid var(--main-color);
+}
+
+.select{
+  width: 400px;
+  font-size: 19px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.select:focus{
+  outline: none;
+  border: 2px solid var(--main-color);
+}
+
+@media(max-width: 999px){
+  .main-basic-container{
+    width: 90%;
+  }
+}
+
+@media(max-width: 600px){
+  .main-basic-container{
+    width: 90%;
+  }
+
+  .input-basic{
+    width: 300px;
+  }
+
+  .select{
+    width: 300px;
+  }
+}

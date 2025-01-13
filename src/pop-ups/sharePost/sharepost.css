@@ -1,0 +1,160 @@
+.share-post-pop-up{
+    width: 500px;
+    max-height: 85vh;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.share-post-pop-up::-webkit-scrollbar{
+  width: 8px;
+}
+
+.share-post-pop-up::-webkit-scrollbar:hover{
+  background-color: var(--primary-grey);
+}
+
+.share-post-pop-up::-webkit-scrollbar-thumb{
+  background-color: var(--secondary-grey);
+  border-radius: 5px;
+}
+
+.share-post-pop-up::-webkit-scrollbar-thumb:hover{
+  background-color: grey;
+}
+
+.main-share-header{
+    text-align: center;
+    position: relative;
+}
+
+.close-btn{
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    padding: 4px 8px;
+}
+
+.hr-share-postPopup{
+    border-style: solid none none;
+    border-width: 1px;
+    border-color: var(--secondary-grey);
+}
+
+.share-post-with{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.radio-gaps{
+  margin-right: 10px;
+}
+
+.radio-cursor{
+  cursor: pointer;
+}
+
+.post-text-area{
+  display: flex;
+  margin: 5px auto 20px;
+  width: 90%;
+  height: 80px;
+  font-size: 18px;
+  resize: none;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.share-post-popup-btns{
+  display: flex;
+  justify-content: center;
+}
+
+.add-other-things{
+  display: flex;
+  gap: 40px;
+}
+
+.emoji-place{
+  position: absolute;
+  bottom: 50px;
+  left: 0px;
+}
+
+.epr_-3yva2a{
+  display: none !important;
+}
+
+.img-div{
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.share-post-img{
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  margin: 5px auto;
+  object-fit: cover;
+}
+
+.remove-photo-btn{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  padding: 4px 8px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.remove-photo-btn:hover{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.share-post-btn{
+    width: 95%;
+    border-radius: 10px;
+    margin: 5px 0px 10px 12px;
+    background-color: var(--main-color);
+}
+
+.share-post-btn:hover{
+    background-color: #039eb6;
+}
+
+.progress-bar-container{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 10px;
+  
+  progress{
+      width: 350px;
+      height: 8px;
+      appearance: none;
+      border-radius: 10px;
+      overflow: hidden;
+      
+      &::-webkit-progress-value{ 
+          background-color: var(--main-color); 
+      }
+  }
+}
+
+.not-allowed{
+  cursor: not-allowed;
+  font-size: 1rem;
+  padding: 0.4rem 0.6rem;
+  background-color: lightgrey;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.not-allowed:hover{
+  background-color: rgb(180, 180, 180);
+}
+
+@media(max-width: 580px){
+  .share-post-pop-up{
+    width: 90%;
+  }
+}

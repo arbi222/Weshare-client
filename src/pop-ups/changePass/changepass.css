@@ -1,0 +1,106 @@
+.change-pass-container{
+    width: 600px;
+    top: 45%;
+}
+
+.pass-pop-up-header{
+    text-align: center;
+    position: relative;
+}
+
+.close-pop-up-btn{
+    position: absolute;
+    padding: 2px 6px;
+    top: -5px;
+    right: 20px;
+}
+
+.change-pass-fields{
+  display: flex;
+  flex-direction: column;
+}
+
+.change-pass-field-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.pass-labels{
+  font-size: large;
+  margin-bottom: 5px;
+}
+
+.show-pass-buttons{
+  cursor: pointer;
+  position: absolute;
+  border: 0;
+  background-color: #fff;
+  right: 80px;
+  top: 26px;
+}
+
+.pass-input{
+  margin-bottom: 20px;
+  width: 350px;
+  font-size: 19px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.pass-input:focus{
+  outline: none;
+  border: 2px solid var(--main-color);
+}
+
+.checkbox-password{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-password input{
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+}
+
+.checkbox-password label{
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.pass-alert-mismatch{
+  margin: 0 auto;
+  color: red;
+}
+
+.disabledButton{
+  cursor: not-allowed;
+  background-color: lightgrey;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.disabledButton:hover {
+  background-color: rgb(180, 180, 180);
+}
+
+.disabledButton:active {
+  animation: none;
+}
+
+@media(max-width: 625px){
+    .change-pass-container{
+        width: 400px;
+    }
+
+    .pass-input{
+        width: 250px;
+    }
+
+    .show-pass-buttons{
+      right: 30px;
+    }
+}

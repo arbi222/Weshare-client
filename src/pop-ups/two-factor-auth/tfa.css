@@ -1,0 +1,93 @@
+.tfa-container{
+    width: 600px;
+    top: 34%;
+}
+
+.tfa-header{
+    text-align: center;
+    position: relative;
+}
+
+.close-delete-tfa-popup{
+    position: absolute;
+    padding: 2px 6px;
+    right: 10px;
+    top: -5px;
+}
+
+.tfa-titles{
+    text-align: center;
+}
+
+.tfa-input-section{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+  
+.input-tfa-pass{
+    width: 300px;
+    font-size: 19px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+  
+.input-tfa-pass:focus{
+    outline: none;
+    border: 2px solid var(--main-color);
+}
+
+.twofabtn{
+    border-radius: 10px;
+    display: flex;
+    margin: 10px auto;
+    background-color: var(--main-color);
+}
+
+.twofabtn:hover{
+    background-color: #3295c4;
+}
+
+
+
+.tfa-buttons{
+    display: flex;
+    margin: 10px auto;
+}
+
+.tfa-btn{
+    background-color: var(--main-color);
+    border-radius: 10px;
+    display: flex;
+    margin: 10px auto;
+}
+
+.tfa-btn:hover{
+    background-color: var(--main-color);
+}
+
+.tfa-btn-close{
+    background-color: var(--primary-grey);
+    border-radius: 10px;
+    display: flex;
+    margin: 10px auto;
+}
+
+
+
+
+@media (max-width: 625px) {
+    .tfa-container{
+        width: 450px;
+    }
+
+    .input-tfa-pass{
+        width: 250px;
+    }
+
+    .show-pass-btn{
+        right: 55px;
+        top: 1px;
+    }
+}
