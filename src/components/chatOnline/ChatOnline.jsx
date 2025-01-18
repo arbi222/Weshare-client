@@ -27,7 +27,7 @@ const ChatOnline = ({userFriends, onlineFriends, searchTerm}) => {
             return (
               <a
                 className='rightbar-online'
-                href={`http://localhost:5173/?user=${friend._id}`} 
+                href={`https://wesharemessenger.onrender.com/?user=${friend._id}`} 
                 key={friend._id}
                 referrerPolicy='no-referrer'
                 target='_blank'
