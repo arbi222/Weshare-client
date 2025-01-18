@@ -38,7 +38,7 @@ const MessengerConvs = ({loggedInUser, conversations, accessToken, axiosJWT, set
 
         <div className="messenger-dropdown-header">
             <h2>Conversations</h2>
-            <a className="btn" referrerPolicy='no-referrer' href="http://localhost:5173/" target="_blank" title="Open Weshare-Messenger">
+            <a className="btn" referrerPolicy='no-referrer' href="https://wesharemessenger.onrender.com" target="_blank" title="Open Weshare-Messenger">
                 <img src="/assets/favicon/messengerLogo.png" alt="logo" />
             </a>
         </div>
