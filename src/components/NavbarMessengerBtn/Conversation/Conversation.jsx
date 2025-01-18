@@ -112,7 +112,7 @@ const Conversation = ({conv, setDeletedConv, loggedInUser, accessToken, axiosJWT
         onMouseLeave={() => setMouseOver(false)}
        >
         <a className="conv-info" 
-          href={`http://localhost:5173/?conversation=${conv._id}`} 
+          href={`https://wesharemessenger.onrender.com/?conversation=${conv._id}`} 
           target="_blank"
           referrerPolicy='no-referrer' 
           onClick={() => {handleSeenConv(conv)
