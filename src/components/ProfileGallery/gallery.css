@@ -58,9 +58,13 @@
 }
 
 @media(max-width: 700px){
-
   .photos-section{
     width: 460px;
   }
-  
+}
+
+@media(max-width: 500px){
+  .photos-section{
+    width: 360px;
+  }
 }
