@@ -102,3 +102,22 @@
     width: 300px;
   }
 }
+
+@media(max-width: 500px){
+  .main-basic-container{
+    width: 85%;
+  }
+
+  .input-basic{
+    width: 250px;
+  }
+
+  .select{
+    width: 260px;
+  }
+
+  #bio{
+    width: 250px;
+    height: 60px;
+  }
+}
