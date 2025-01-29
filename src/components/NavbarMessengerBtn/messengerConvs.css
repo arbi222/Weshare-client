@@ -79,3 +79,11 @@
 .messenger-loader{
     color: var(--main-color) !important;
 }
+
+@media(max-width: 500px){
+    .messenger-dropdown {
+        width: 330px; 
+        right: -50px;
+        font-size: medium;
+    }
+}
