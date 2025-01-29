@@ -108,3 +108,21 @@
         width: 450px;
     }
 }
+
+@media(max-width: 500px){
+    .main-blocklist-container{
+        width: 350px;
+    }
+
+    .block-note{
+        width: 300px;
+    }
+
+    .filter-blocked-users{
+        width: 325px;
+    }
+
+    .blocked-users-container{
+        width: 350px;
+    }
+}
