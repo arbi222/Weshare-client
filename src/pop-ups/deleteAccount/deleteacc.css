@@ -78,6 +78,6 @@
     }
 
     .show-pass-btn{
-        right: 5px;
+        right: 5px !important;
     }
 }
