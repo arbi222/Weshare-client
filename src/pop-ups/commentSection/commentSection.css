@@ -169,3 +169,17 @@
     }
   
 }
+
+@media(max-width: 500px){
+    .comment-container{
+        width: 350px;
+    }
+
+    .page-post-form{
+        width: 350px;
+    }
+
+    .comment-textarea{
+        width: 210px;
+    }
+}
