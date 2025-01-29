@@ -157,4 +157,8 @@
   .share-post-pop-up{
     width: 90%;
   }
+
+  .emoji-place{
+    left: -50px;
+  }
 }
