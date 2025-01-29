@@ -140,14 +140,14 @@ const SingleFile = ({image, video, user, loggedInUser, accessToken, axiosJWT, se
                             <span>
                                 <AccountCircle style={{marginTop: "3px"}}/>
                             </span>
-                            <p>Make profile picture</p>
+                            <p>Set as profile picture</p>
                         </button>
 
                         <button className='btn photo-settings-btns' onClick={handleCoverPic}>
                             <span>
                                 <Panorama style={{marginTop: "3px"}}/>
                             </span>
-                            <p>Make cover photo</p>
+                            <p>Set as cover photo</p>
                         </button>
                     </>
                 }
