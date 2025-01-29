@@ -36,3 +36,16 @@
         width: 90vw;
     }
 }
+
+@media (max-width: 500px) {
+    .media-viwer{
+        height: 75vh;
+    }
+
+    .media-center{
+        img, video{
+            min-width: 350px;   
+            min-height: 200px;
+        }
+    }
+}
