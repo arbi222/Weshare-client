@@ -57,4 +57,10 @@
   align-items: center;
   gap: 10px;
 }
+
+@media(max-width: 500px){
+  .photo-settings-pop-up{
+    width: 210px;
+  }
+}
   
