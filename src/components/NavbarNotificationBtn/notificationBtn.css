@@ -75,3 +75,11 @@
 .notification-loader{
     color: var(--main-color) !important;
 }
+
+@media(max-width: 500px){
+    .notification-dropdown {
+        width: 350px; 
+        right: -111px;
+        font-size: medium;
+    }
+}
