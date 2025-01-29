@@ -76,3 +76,15 @@
   }
 
 }
+
+@media(max-width: 500px){
+
+  .friends-section{
+    width: 360px;
+    
+  }
+
+  .friend-desc{
+    flex: 1 47%;
+  }
+}
