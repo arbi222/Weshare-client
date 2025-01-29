@@ -74,10 +74,10 @@
     }
 
     .input-delete-pass{
-        width: 220px;
+        width: 225px;
     }
 
     .show-pass-btn{
-        right: 5px !important;
+        right: 15px !important;
     }
 }
