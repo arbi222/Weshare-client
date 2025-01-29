@@ -74,9 +74,6 @@
     margin: 10px auto;
 }
 
-
-
-
 @media (max-width: 625px) {
     .tfa-container{
         width: 450px;
@@ -89,5 +86,11 @@
     .show-pass-btn{
         right: 55px;
         top: 1px;
+    }
+}
+
+@media (max-width: 500px) {
+    .tfa-container{
+        width: 350px;
     }
 }
