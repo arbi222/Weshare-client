@@ -97,7 +97,7 @@ const Register = ({setRegisterOpen}) => {
                             <p>Age</p>
                             <input className="register-input age-input" 
                                    type="number"
-                                   placeholder='Age'
+                                   placeholder='16+'
                                    required
                                    min="16"
                                    max="150"
