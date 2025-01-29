@@ -67,3 +67,17 @@
         top: 1px;
     }
 }
+
+@media (max-width: 500px) {
+    .delete-acc-container{
+        width: 350px;
+    }
+
+    .input-delete-pass{
+        width: 230px;
+    }
+
+    .show-pass-btn{
+        right: 15px;
+    }
+}
