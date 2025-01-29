@@ -170,5 +170,53 @@
     .first-login-section p{
       font-size: 20px;
     }
-  
   }
+
+@media(max-width: 500px){
+  .main-login-container{
+    gap: 30px;
+  }
+
+  .second-login-section{
+    width: 280px;
+    padding: 10px;
+  }
+
+  .sensitive-data-input{
+    width: 265px;
+  }
+
+  .login-input-field{
+    font-size: 16px;
+    height: 30px;
+    padding: 2px;
+    padding-left: 10px;
+  }
+
+  #pass-enter{
+    height: 20px;
+    font-size: 16px;
+  }
+
+  .show-hide-pass{
+    right: 20px;
+    top: 60px; 
+  }
+
+  .login-btn{
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+  }
+
+  .loader-login{
+    margin-top: -4px;
+  }
+  
+  .create-acc-btn{
+    width: 65%;
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+}
