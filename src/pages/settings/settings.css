@@ -254,3 +254,28 @@ input:checked + .slider:before {
     width: 450px;
   }
 }
+
+@media(max-width: 500px){
+  .settings-container {
+    width: 85%;
+  }
+  .user-info{
+      width: 300px;
+  }
+  .profile-picture-section{
+    width: 300px;
+  }
+    
+  .input-settings-info input{
+    font-size: 16px;
+  }
+  
+  .label-input{
+    font-size: 16px;
+  }
+  
+  #submit-btn{
+    margin: 10px auto 5px;
+    font-size: 17px;
+  }
+}
