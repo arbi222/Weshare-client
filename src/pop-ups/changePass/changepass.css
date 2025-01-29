@@ -104,3 +104,17 @@
       right: 30px;
     }
 }
+
+@media(max-width: 500px){
+  .change-pass-container{
+      width: 350px;
+  }
+
+  .pass-input{
+      width: 230px;
+  }
+
+  .show-pass-buttons{
+    right: 15px;
+  }
+}
