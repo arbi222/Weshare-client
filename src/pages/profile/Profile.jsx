@@ -538,7 +538,7 @@ const Profile = () => {
                                 }
                               </>
                           }
-                          <Link to={`http://localhost:5173/?user=${user._id}`} 
+                          <Link to={`https://wesharemessenger.onrender.com/?user=${user._id}`} 
                                 referrerPolicy='no-referrer' 
                                 className='btn options-profile-btns'
                                 target='_blank'>
