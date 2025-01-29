@@ -138,7 +138,7 @@ const Login = () => {
                         </div>
                         
                         <button className='btn login-btn' type='submit' disabled={isFetching}>
-                            {isFetching ? <CircularProgress color='#fff' size="25px" /> : "Log In"}
+                            {isFetching ? <CircularProgress className='loader-login' color='#fff' size="25px" /> : "Log In"}
                         </button>
                     </form>
 
