@@ -116,3 +116,34 @@
   background-color: #22a517;
   color: #fff;
 }
+
+@media(max-width: 500px){
+  .main-register-container{
+    width: 330px;
+  }
+
+  .register-body{
+    padding: 5px 10px;
+  }
+  
+  .register-name{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .register-input{
+    height: 35px;
+  }
+
+  .name-register-css{
+    width: 135px; 
+  }
+  
+  .age-input{
+    width: 96%;
+  }
+
+  .gender-register label{
+    width: 130px;
+  }
+}
