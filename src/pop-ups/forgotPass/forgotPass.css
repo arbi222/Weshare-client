@@ -49,3 +49,18 @@
         width: 250px;
     }
 }
+
+@media(max-width: 500px){
+    .forgot-pass-container{
+        width: 350px;
+    }
+
+    .close-forgot-pop-up-btn{
+        padding: 0px 4px;
+        top: -3px;
+    }
+
+    .forgot-pass-input{
+        width: 200px;
+    }
+}
