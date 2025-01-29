@@ -204,7 +204,7 @@ const Navbar = ({isPop_upPassOpen, isPop_upDeleteAccOpen, isPop_upTFAOpen}) => {
   return (
 
     <div className={blurBackground ? 'navbar-container shadow blur-background' : 'navbar-container shadow'}>
-        <div className="navbar-left">
+        <div className={isSearchbarOpen ? "navbar-left-searchbar" : "navbar-left"}>
           <a href="/" referrerPolicy='no-referrer' style={{textDecoration:"none"}}>
             <span className='nav-logo'>WeShare</span>
           </a>
@@ -212,7 +212,7 @@ const Navbar = ({isPop_upPassOpen, isPop_upDeleteAccOpen, isPop_upTFAOpen}) => {
         <div className="navbar-center" ref={searchbarRef}>
           <SearchBar isSearchbarOpen={isSearchbarOpen} setisSearchbarOpen={setisSearchbarOpen} axiosJWT={axiosJWT} accessToken={accessToken} />    
         </div>
-        <div className="navbar-right">
+        <div className={isSearchbarOpen ? "navbar-right-searchbar" : "navbar-right"}>
           <div className="navbar-Icons">
             <div style={{position: "relative"}} ref={notificationMenu}>
               <div className="navbar-icon-item btn nav-btn" 
