@@ -64,3 +64,21 @@
         width: 250px;
     }
 }
+
+@media (max-width: 500px) {
+    .tfa-login-container{
+        width: 350px;
+    }
+
+    .tfa-login-header{
+        font-size: 13px;
+    }
+
+    .close-tfa-login-popup{
+        padding: 0px 4px;
+    }
+
+    .input-tfa-login-pass{
+        width: 220px;
+    }
+}
