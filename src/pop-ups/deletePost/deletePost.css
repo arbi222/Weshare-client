@@ -39,9 +39,13 @@
 }
 
 @media(max-width: 800px){
-    
     .delete-post-container{
         width: 400px;
     }
-   
+}
+
+@media(max-width: 500px){
+    .delete-post-container{
+        width: 300px;
+    } 
 }
