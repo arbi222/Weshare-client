@@ -132,7 +132,7 @@ const FriendManagement = ({friend, setFriendRequestSent}) => {
             if (loggedInUser.friends.includes(friend?._id)){
                 return (
                     <div className='message-remove-section'>
-                        <a  href={`http://localhost:5173/?user=${friend?._id}`}  
+                        <a  href={`https://wesharemessenger.onrender.com/?user=${friend?._id}`}  
                             title='Message'
                             target='_blank'
                             referrerPolicy='no-referrer'
