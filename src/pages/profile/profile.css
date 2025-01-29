@@ -394,5 +394,18 @@
     .feed-profile-container{
         width: 100%;
     }
-  
+
   }
+
+@media(max-width: 500px){
+  .edit-profile-section{
+    gap: 3px;
+  }
+
+  .not-in-friend-list{
+    font-size: 18px;
+    width: 300px;
+    display: block;
+    margin: 30px auto;
+  }
+}
