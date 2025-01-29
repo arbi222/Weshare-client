@@ -78,7 +78,7 @@ const SearchBar = ({isSearchbarOpen, setisSearchbarOpen, axiosJWT, accessToken})
             }
 
             <input id='search' 
-                  placeholder='Search WeShare' 
+                  placeholder='Search' 
                   className="search-Input" 
                   autoComplete='off' 
                   spellCheck="false"
