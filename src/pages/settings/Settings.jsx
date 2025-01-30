@@ -111,6 +111,7 @@ const Settings = () => {
                 }
               })
             toast.success("Settings saved!")
+            window.location.reload();
         }
         catch(err){
             toast.error("Settings were not saved!")
