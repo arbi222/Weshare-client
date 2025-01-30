@@ -46,3 +46,13 @@
     text-align: center;
     margin: 100px auto;
 }
+
+@media(max-width: 500px){
+    .likes-container{
+        width: 350px;
+    }
+
+    .no-likes{
+       font-size: 18px;
+    }
+}
