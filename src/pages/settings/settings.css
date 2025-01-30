@@ -1,7 +1,7 @@
 .settings-container {
   width: 90vw;
   max-width: 1500px;
-  height: 85vh;
+  height: auto;
   margin: 20px auto 0;
   background-color: #fff;
   border-radius: 10px;
@@ -35,6 +35,7 @@
   padding-bottom: 40px;
   background-color: var(--primary-grey);
   border-radius: 10px;
+  margin-bottom: 30px;
 }
   
 .change-profile-picture{
@@ -150,6 +151,7 @@ input:checked + .slider:before {
   align-items: center;
   background-color: var(--primary-grey);
   border-radius: 10px;
+  margin-bottom: 30px;
 }
   
 .primary-info{
@@ -215,6 +217,7 @@ input:checked + .slider:before {
 @media(max-width: 1235px){
   .settings-container {
       width: 95vw;
+      height: auto;
   }
   .settings-sections{
       width: 850px;
