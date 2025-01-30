@@ -29,7 +29,7 @@ const Register = ({setRegisterOpen}) => {
             gender: gender,
         }
         try{
-            await axios.post(apiUrl + "auth/register", user);
+            await axios.post(apiUrl + "/auth/register", user);
             setRegisterOpen(false);
             loginCall({username: email.current.value, password: password.current.value}, dispatch)
         }
