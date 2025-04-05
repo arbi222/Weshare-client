@@ -98,7 +98,7 @@ const Profile = () => {
               image: imgUrl,
               fileType: "image"
           }
-          await axiosJWT.post("/posts", thePost , {
+          await axiosJWT.post(apiUrl + "/posts", thePost , {
             headers: {
                 authorization: `Bearer ${accessToken}`
             }
