@@ -42,6 +42,20 @@ WeShare is a full social media platform where users can share posts, interact wi
 
 ---
 
+## Architecture Note
+
+This app is intentionally decoupled from the social media frontend. Both apps connect to the same backend via REST and Socket.io, but run as independent deployments. This architecture allows each app to scale and evolve independently.
+
+```
+  Weshare-client      Weshare-messenger
+    (This app)  ──┐  ┌──  (Messenger)
+                  ▼  ▼
+              Weshare-server
+          (Shared REST + Socket.io)
+```
+
+---
+
 ## Author
 
 **Arbi Hamolli** — Full-Stack Web Developer  
